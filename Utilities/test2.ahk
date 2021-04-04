@@ -10,15 +10,13 @@ SetWorkingDir %A_ScriptDir%
 
 ;**HOTKEYS**
 
-!e:: ;EDIT SCRIPT
+!e:: ;EDIT SCRIPT ALT+E
 Edit
-sleep, 200
-Numpad0::Send, ^!f
 return
 
-#r::reload ;RESTART SCRIPT
+#r::reload ;RESTART SCRIPT WINKEY+R
 
-#Esc::ExitApp ;END SCRIPT
+#Esc::ExitApp ;END SCRIPT WINKEY+ESC
 ;}
 
 ;Main Code
